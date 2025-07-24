@@ -105,4 +105,4 @@ deploy:
     type: git
     repo: https://github.com/t0mmy-678470/t0mmy-678470.github.io
     # branch: dev
-    message: Site updated {{ now('YYYY-MM-DD HH:mm:ss') }})
+    message: Site updated {{ now('YYYY-MM-DD HH:mm:ss')}})
