@@ -19,4 +19,15 @@ description: "這是一則關於文章的簡要說明"
 ### test3
 
 -   img
-    ![image](../../public/img/frostbean_thinking.jpg)
+    ![image1](./test/frostbean_thinking.jpg)
+    ![image2](test/frostbean_thinking.jpg)
+    ![image3](frostbean_thinking.jpg)
+    <!-- ![image2](frostbean_thinking.jpg) -->
+
+:::info
+it's info
+:::
+
+:::danger
+it's danger
+:::
