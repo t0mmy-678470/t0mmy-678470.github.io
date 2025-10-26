@@ -2,7 +2,11 @@
 title: Hello World
 ---
 
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+- Welcome to my blog! Here I will post my CTF writeups, my research(Maybe I'm not capable of that yet), and some expreiece in computer science related fields.
+
+- I'll try my best to write blog in English here to practice English at the same time. If there have some wrong grammar or typo please forgive me 🥲.
+
+- I always forget hexo command, so I just write here to help me remember the command 👍.
 
 ## Quick Start
 
@@ -12,12 +16,25 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 $ hexo new "My New Post"
 ```
 
+### Create a new draft
+
+```bash
+$ hexo new draft "My New Draft"
+```
+
+### Publish a draft
+
+```bash
+$ hexo publish "My New Draft"
+```
+
 More info: [Writing](https://hexo.io/docs/writing.html)
 
 ### Run server
 
 ```bash
 $ hexo server
+$ hexo server --draft
 ```
 
 More info: [Server](https://hexo.io/docs/server.html)
