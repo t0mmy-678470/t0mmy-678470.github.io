@@ -3,8 +3,10 @@
 
 body
   @extend .serif
-  font-size 16px   // changed!!  一般文字大小
-  color gray-dark
+  font-size 16px
+  color #f3f4f6
+  background #2f2f2f
+  line-height 1.6
 
 p
   line-height 1.5
@@ -19,9 +21,9 @@ h1, h2, h3, h4, h5, h6
   font-weight 800
 
 a
-  color gray-dark
+  color #b794f6
   &:hover, &:focus
-    color brand-primary
+    color #d8b4fe
 a img
   &:hover, &:focus
     cursor zoom-in
@@ -30,7 +32,7 @@ hr.small
   max-width 100px
   margin 15px auto
   border-width 4px
-  border-color white
+  border-color #6b7280
 
 .fa-stack-1x, .fa-stack-2x
   bottom 0
@@ -107,7 +109,8 @@ hr.small
       transform translate3d(0, 100%, 0)
 
 .intro-header
-  background-color gray
+  background-color #4b4b4b
+  background-image linear-gradient(135deg, #4b4b4b 0%, #6b6b6b 100%)
   background-position center center
   background-attachment scroll
   @extend .background-cover
@@ -160,11 +163,14 @@ hr.small
         font-size 30px    
 
 .post-preview
+  border-bottom 1px solid rgba(148, 163, 184, 0.25)
+  padding-bottom 20px
+  margin-bottom 20px
   > a
-    color gray-dark
+    color #f3f4f6
     &:hover, &:focus
       text-decoration none
-      color brand-primary
+      color #d8b4fe
     > .post-title
       font-size 28px    // changed!!
       margin-top 30px
@@ -176,7 +182,7 @@ hr.small
       font-weight 300
       margin-bottom 10px
   > .post-meta
-    color gray
+    color #94a3b8
     font-size 17px    // changed!!      home 頁面的文章日期
     font-style italic
     margin-top 0
@@ -184,7 +190,7 @@ hr.small
       font-size 16px
     > a
       text-decoration none
-      color gray-dark
+      color #cbd5e1
       &:hover, &:focus
         color brand-primary
         text-decoration underline
@@ -224,6 +230,15 @@ hr.small
   height 30px
 footer
   padding 50px 0 65px
+  background #242424
+  color #e5e7eb
+  border-top 1px solid rgba(209, 213, 219, 0.15)
+  .fa-stack-2x
+    color #b794f6
+  .fa-stack-1x
+    color #242424
+  a:hover .fa-stack-2x, a:focus .fa-stack-2x
+    color #d8b4fe
   .list-inline
     margin 0
     padding 0
@@ -231,6 +246,7 @@ footer
     font-size 14px
     text-align center
     margin-bottom 0
+    color #94a3b8
 
 .floating-label-form-group
   font-size 14px

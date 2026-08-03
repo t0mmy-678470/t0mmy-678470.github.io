@@ -3,7 +3,6 @@ menu:
     Home: /
     Archives: /archives
     Tags: /tags
-    Categories: /categories
     Github:
         url: https://github.com/klugjo/hexo-theme-clean-blog
         icon: github
@@ -40,7 +39,7 @@ favicon:
 twitter_url:
 twitter_handle:
 facebook_url: https://facebook.com
-github_url: https://github.com/klugjo/hexo-theme-clean-blog
+github_url: https://github.com/t0mmy-678470/t0mmy-678470.github.io
 gitlab_url:
 linkedin_url:
 mailto:

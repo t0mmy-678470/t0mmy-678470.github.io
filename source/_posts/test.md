@@ -2,8 +2,6 @@
 title: test
 date: 2025-07-24 19:19:42
 tags: test
-categories:
-    - 教學
 keywords:
     - hexo
     - blog
